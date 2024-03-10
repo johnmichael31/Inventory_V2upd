@@ -1,0 +1,43 @@
+.centered-login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px; /* Adjust based on your preference */
+}
+.chart-canvas {
+  max-width: 100%;
+  height: auto; /* Adjust based on your layout, could use vh units */
+}
+.chart-card {
+  height: 300px; /* or any other value */
+}
+#alert-message {
+  transition: opacity 0.6s ease;
+}
+
+.mhologo {
+  position: absolute;
+  top: 0px;
+  left: -375px;
+  width: 810px;
+  z-index: 1;
+}
+
+.agoologo {
+  position: absolute;
+  top: 0px;
+  right: -335px;
+  width: 670px;
+  z-index: 1;
+}
+
+.categories {
+  width: 800px;
+}
+
+.login-body {
+  overflow: hidden;
+  background: rgb(3, 248, 3);
+}
